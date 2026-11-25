@@ -1,0 +1,28 @@
+{
+  "Study_Start": "2021-01-01",
+  "Study_End_Exclusive": "2025-01-01",
+  "Ticker_List_Retrieval_Date_UTC": "2026-11-25",
+  "Observation_Date": "2024-12-31",
+  "Benchmark": "^GSPC",
+  "Weekly_Price_Field": "Adj Close",
+  "Baseline_Sessions": 20,
+  "RFM_Window_Sessions": 60,
+  "High_Volume_Multiplier": 2.0,
+  "Minimum_Paired_Weeks_For_Beta": 52,
+  "Initial_Tickers": 503,
+  "Initially_Valid_Tickers": 498,
+  "Common_Shares_Clustered": 498,
+  "Risk_Ward_Selected_k": 3,
+  "Risk_KMeans_Selected_k": 2,
+  "RFM_Ward_Selected_k": 2,
+  "RFM_KMeans_Selected_k": 2,
+  "Ward_RFM_vs_RF_Only_ARI": 0.9530695498615949,
+  "Package_Versions": {
+    "Python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "yfinance": "0.2.66",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1"
+  }
+}
